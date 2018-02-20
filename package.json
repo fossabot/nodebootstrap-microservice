@@ -19,7 +19,7 @@
     "body-parser": "^1.14.1",
     "config": "^1.28.1",
     "express": "^4.11.0",
-    "express-validator": "^4.3.0",
+    "express-validator": "^5.0.0",
     "glob": "^7.0.0",
     "hbs": "^4.0",
     "helmet": "^3.9.0",
@@ -53,7 +53,7 @@
   "scripts": {
     "start": "nodemon -L -e js,coffee,jade,handlebars server.js",
     "lint": "eslint src test",
-    "pretest" : "npm run lint",
+    "pretest": "npm run lint",
     "test": "nyc mocha --bail test/ test/acceptance/",
     "test-cov": "nyc mocha test/ test/acceptance/"
   },
