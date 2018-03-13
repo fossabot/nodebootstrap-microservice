@@ -42,7 +42,7 @@
     "eslint": "^4.11.0",
     "eslint-plugin-mocha": "^4.11.0",
     "istanbul": "^0.4.2",
-    "mocha": "^4.0.0",
+    "mocha": "^5.0.3",
     "nock": "^9.0.0",
     "nyc": "^11.3.0",
     "should": "^13.0.0",
@@ -53,7 +53,7 @@
   "scripts": {
     "start": "nodemon -L -e js,coffee,jade,handlebars server.js",
     "lint": "eslint src test",
-    "pretest" : "npm run lint",
+    "pretest": "npm run lint",
     "test": "nyc mocha --bail test/ test/acceptance/",
     "test-cov": "nyc mocha test/ test/acceptance/"
   },
